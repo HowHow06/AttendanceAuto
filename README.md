@@ -30,7 +30,10 @@ When you are to get away from keyboard and you are scared that you missed the at
         ```sh
         python .\AttendanceAuto_v2.py
         ```
-4. IMPORTANT, make sure that teams is visible when the script is running, and please dont interrupt the pc when the browser is opened.
+4. IMPORTANT
+    1. make sure that MS Teams is visible when the script is running
+    2. please dont interrupt the pc when the browser is opened.
+    3. make sure you logged into your apspace on your default browser.
 
 ---
 # Some other notes:
