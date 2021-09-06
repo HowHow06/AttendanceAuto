@@ -38,7 +38,7 @@ while(True):
         current_time = now.strftime("%H:%M:%S")
         print('no qr found ', current_time)   
         
-    time.sleep(10) #if no qr found, wait for 1 seconds
+    time.sleep(10) #if no qr found, wait for 10 seconds
 
 
 if attendanceCodeReady: #if you know how to communicate with apu api, go ahead
@@ -54,3 +54,4 @@ if attendanceCodeReady: #if you know how to communicate with apu api, go ahead
     qrscreenshot = pyautogui.screenshot()
     qrscreenshot.save(r''+statusScreenshot_folderPath+attcode+statusScreenshot_fileNameSuffix)
     print('Status saved, exiting application...')
+    input('Press any key to close...')
