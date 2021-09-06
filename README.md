@@ -25,3 +25,8 @@ When you are to get away from keyboard and you are scared that you missed the at
     3. use the command below to run the application.
         > python .\AttendanceAuto_v2.py
 4. IMPORTANT, make sure that teams is visible when the script is running, and please dont interrupt the pc when the browser is opened.
+
+---
+# Some other notes:
+## Terminating the script
+Use Ctrl+C to terminate.
