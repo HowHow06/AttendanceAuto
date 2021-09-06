@@ -27,7 +27,9 @@ When you are to get away from keyboard and you are scared that you missed the at
     1. Open terminal
     2. cd to the folder containing AttendaceAuto_v2.py
     3. use the command below to run the application.
-        > python .\AttendanceAuto_v2.py
+        ```sh
+        python .\AttendanceAuto_v2.py
+        ```
 4. IMPORTANT, make sure that teams is visible when the script is running, and please dont interrupt the pc when the browser is opened.
 
 ---
