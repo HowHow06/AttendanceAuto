@@ -15,16 +15,11 @@ https://drive.google.com/file/d/1tmwxqY62ouRomnstwxzjfV1r6ZC5Vn83/view?usp=shari
 # Instruction to use AttendanceAuto
 1. Install python, 3.7 or above. Along with pip
 2. Install the required libraries:
-    - pyzbar
-    ```sh
-    python -m pip install pyzbar
-    ```
 
-    Use the command above in terminal to install. 
-    - pyautogui
-    ```sh
-    python -m pip install pyautogui
-    ```
+        ```sh
+        python -m pip install -r requirements.txt
+        ```
+        Use the command above in terminal to install the dependencies. 
 
     Use the command above in terminal to install.
 3. Double click to run the script OR Run AttendanceAuto_v2.py using TERMINAL. 
