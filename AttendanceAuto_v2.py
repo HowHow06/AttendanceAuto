@@ -38,7 +38,7 @@ while(True):
         current_time = now.strftime("%H:%M:%S")
         print('no qr found ', current_time)   
         
-    time.sleep(15) #if no qr found, wait for 15 seconds
+    time.sleep(10) #if no qr found, wait for 1 seconds
 
 
 if attendanceCodeReady: #if you know how to communicate with apu api, go ahead
