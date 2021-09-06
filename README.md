@@ -8,7 +8,7 @@ Just for fun, please attend classes :D
 When you are to get away from keyboard and you are scared that you missed the attendance.
 
 ---
-#Tutorial video on using the script
+# Tutorial video on using the script
 https://drive.google.com/file/d/1tmwxqY62ouRomnstwxzjfV1r6ZC5Vn83/view?usp=sharing
 
 ---
