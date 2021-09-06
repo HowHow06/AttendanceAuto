@@ -12,11 +12,15 @@ When you are to get away from keyboard and you are scared that you missed the at
 1. Install python, 3.7 or above. Along with pip
 2. Install the required libraries:
     - pyautogui
-    > python -m pip install pyzbar
+    ```sh
+    python -m pip install pyzbar
+    ```
 
     Use the command above in terminal to install. 
     - pyzbar
-    > python -m pip install pyautogui
+    ```sh
+    python -m pip install pyautogui
+    ```
 
     Use the command above in terminal to install.
 3. Double click to run the script OR Run AttendanceAuto_v2.py using TERMINAL. 
