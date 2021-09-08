@@ -6,8 +6,18 @@ from pyzbar.pyzbar import decode
 import time
 import webbrowser
 from datetime import datetime
+from pushbullet import Pushbullet
+import os
 
-
+API_KEY_File = "API_KEY.txt"
+if os.path.isfile(API_KEY_File):
+    with open(API_KEY_File, mode='r') as f:
+        API_KEY = f.read()
+else:
+    API_KEY = input("Please enter your API key:")
+    with open(API_KEY_File, mode='w') as f:
+        f.write(API_KEY)
+pb = Pushbullet(API_KEY)
 screenshot_folderPath = 'screenshots/'
 screenshot_fileName = 'stage_screenshot.png'
 statusScreenshot_folderPath = 'status_screenshots/'
@@ -53,5 +63,9 @@ if attendanceCodeReady: #if you know how to communicate with apu api, go ahead
         
     qrscreenshot = pyautogui.screenshot()
     qrscreenshot.save(r''+statusScreenshot_folderPath+attcode+statusScreenshot_fileNameSuffix)
+
+    push = pb.push_note('AttendanceAuto Completed at:', current_dateTime +
+        '\nPlease check your image at:\n' + os.path.abspath(statusScreenshot_folderPath+attcode+statusScreenshot_fileNameSuffix))
+
     print('Status saved, exiting application...')
     input('Press any key to close...')
