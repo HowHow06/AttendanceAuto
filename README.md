@@ -8,7 +8,6 @@ Just for fun, please attend classes :D
 When you are to get away from keyboard and you are scared that you missed the attendance.
 
 ---
-<<<<<<< HEAD
 # Instruction in using the AttendanceAuto_v2.1.1 (BETA)
 1. Go to [PushBullet website](https://www.pushbullet.com/)
 2. Register an account.
@@ -27,13 +26,10 @@ https://drive.google.com/file/d/1tmwxqY62ouRomnstwxzjfV1r6ZC5Vn83/view?usp=shari
 ---
 
 # Instruction to use the code in AttendanceAuto (v2.0)
-=======
-# Tutorial video on using AttendanceAuto
 https://drive.google.com/file/d/1tmwxqY62ouRomnstwxzjfV1r6ZC5Vn83/view?usp=sharing
 
 ---
 # Instruction to use AttendanceAuto (script)
->>>>>>> bb2ae3bf475f00a4c0d42d3a0e5ab86d2256ed97
 1. Install python, 3.7 or above. Along with pip
 2. Install the required libraries:
         ```sh
