@@ -8,7 +8,7 @@ Just for fun, please attend classes :D
 When you are to get away from keyboard and you are scared that you missed the attendance.
 
 ---
-# Instruction in using the AttendanceAuto_v2.1.1 (BETA)
+# Instruction on using the AttendanceAuto_v2.1.1 (BETA)
 1. Go to [PushBullet website](https://www.pushbullet.com/)
 2. Register an account.
 3. Go to playstore/appstore to download Pushbullet. Login with the same account.
@@ -20,16 +20,11 @@ When you are to get away from keyboard and you are scared that you missed the at
 9. Open your MS Teams, go afk.
 
 ---
-# Tutorial video on using the script (v2.0)
+# Tutorial video on using AttendanceAutov2.0
 https://drive.google.com/file/d/1tmwxqY62ouRomnstwxzjfV1r6ZC5Vn83/view?usp=sharing
 
 ---
-
-# Instruction to use the code in AttendanceAuto (v2.0)
-https://drive.google.com/file/d/1tmwxqY62ouRomnstwxzjfV1r6ZC5Vn83/view?usp=sharing
-
----
-# Instruction to use AttendanceAuto (script)
+# Instruction to use code of AttendanceAuto (script)
 1. Install python, 3.7 or above. Along with pip
 2. Install the required libraries:
         ```sh
